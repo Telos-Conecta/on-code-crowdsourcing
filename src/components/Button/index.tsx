@@ -17,6 +17,7 @@ const variants = {
 
 const Button = ({ variant = "primary", children, iconLeft, iconRight, ...props }: ButtonProps) => {
     const defaultClasses = 'flex items-center px-[14px] py-[10px] justify-center font-semibold'
+   
     return (
         <button {...props}
             className={`${defaultClasses} ${variants[variant]} ${props.className}`}>
