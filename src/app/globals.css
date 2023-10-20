@@ -5,8 +5,9 @@
 :root {
   --primary-color: #7825FF;
   --secondary-color: #FF00C7;
+  --black-color: #121212;
   --on-code: linear-gradient(48deg, var(--primary-color) -94.24%, var(--secondary-color) 93.57%);
-  --on-code-70: linear-gradient(48deg, rgba(120,37,255, 0.7) -94.24%, rgba(255,0,199,0.7) 93.57%);
-  --sub: rgb(121,128,139);
+  --on-code-70: linear-gradient(48deg, rgba(120, 37, 255, 0.7) -94.24%, rgba(255, 0, 199, 0.7) 93.57%);
+  --sub: rgb(121, 128, 139);
   --sub-30: rgba(121, 128, 139, 0.30);
 }

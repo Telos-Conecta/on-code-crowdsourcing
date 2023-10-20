@@ -37,7 +37,7 @@ export default function Home() {
     }
 
     return (
-        <main className="flex h-screen">
+        <main className="flex h-screen-navbar">
             <LoginSidebarImage />
             <div className="flex-1 flex items-center justify-center">
                 {actions[state.actionType].component}
